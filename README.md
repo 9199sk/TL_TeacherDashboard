@@ -51,5 +51,6 @@ Edit
 flutter pub get
 flutter run
 
-** view **
-`assets/screenshot/view.png`
+**View Screen**
+
+![View](assets/screenshot/view.png)
