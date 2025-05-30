@@ -1,16 +1,18 @@
-# tl_teacher
+# 📚 Testify Learn - Teacher Dashboard
 
-A new Flutter project.
+A modern Flutter-based **Teacher Dashboard** designed to help educators manage their classes, track student progress, and access essential tools in one place.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## 🚀 Features
 
-A few resources to get you started if this is your first Flutter project:
+- 🏠 Home Dashboard with quick stats and navigation
+- 📋 Student List Management
+- 📊 Performance Tracking
+- 💼 Wallet & Payment Management
+- 👤 Profile and Account Settings
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 📂 Project Structure
+
