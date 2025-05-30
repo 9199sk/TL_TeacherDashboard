@@ -15,7 +15,7 @@ class DashboardScreen extends StatelessWidget {
         height: 70,
         width: double.infinity,
         decoration: const BoxDecoration(
-          color: Color(0xFF6A0DAD),
+          color: Color(0xFF4E33A3),
 
         ),
         child: Row(
@@ -40,7 +40,7 @@ class DashboardScreen extends StatelessWidget {
                 width: double.infinity,
                 padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 20),
                 decoration: const BoxDecoration(
-                  color: Color(0xFF6A0DAD),
+                  color: Color(0xFF4E33A3),
                   borderRadius: BorderRadius.only(
                     bottomLeft: Radius.circular(24),
                     bottomRight: Radius.circular(24),
@@ -83,7 +83,7 @@ class DashboardScreen extends StatelessWidget {
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
                     Text("Welcome back, Affan", style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16)),
-                    Text("Coaching Name: Sufiyan coaching center", style: TextStyle(color: Colors.purple)),
+                    Text("Coaching Name: Sufiyan coaching center", style: TextStyle(color: Color(0xFF4E33A3))),
                   ],
                 ),
               ),
@@ -91,25 +91,34 @@ class DashboardScreen extends StatelessWidget {
               const SizedBox(height: 16),
 
               // ✅ STATS CARDS
+              // Inside DashboardScreen build() method
               Padding(
                 padding: const EdgeInsets.symmetric(horizontal: 16),
                 child: Row(
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: const [
-                    StatsCard(title: "Tests Taken", value: "12", color: Color(0xFFCDE9E5)),
-                    StatsCard(title: "Tests Won", value: "4", color: Color(0xFFE5DEFA)),
-                    StatsCard(title: "Rank", value: "2", color: Color(0xFFFDE5E5)),
+                    StatsCard(
+                      title: "Tests Taken",
+                      value: "12",
+                      color: Color(0xFFCDE9E5),
+                      iconPath: "assets/icons/test_taken.png",
+                    ),
+                    StatsCard(
+                      title: "Tests Won",
+                      value: "4",
+                      color: Color(0xFFE5DEFA),
+                      iconPath: "assets/icons/test_won.png",
+                    ),
+                    StatsCard(
+                      title: "Rank",
+                      value: "2",
+                      color: Color(0xFFFDE5E5),
+                      iconPath: "assets/icons/rank.png",
+                    ),
                   ],
                 ),
               ),
 
-              const SizedBox(height: 20),
-
-              // ✅ UPCOMING TESTS
-              const Padding(
-                padding: EdgeInsets.symmetric(horizontal: 16),
-                child: Text("Upcoming Tests", style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold)),
-              ),
 
               const SizedBox(height: 12),
 

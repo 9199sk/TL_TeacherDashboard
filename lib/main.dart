@@ -15,7 +15,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Coaching Dashboard',
       theme: ThemeData(
-        primaryColor: const Color(0xFF6A0DAD),
+        primaryColor: const Color(0xFF4E33A3),
         textTheme: GoogleFonts.poppinsTextTheme(),
       ),
       home: const DashboardScreen(),

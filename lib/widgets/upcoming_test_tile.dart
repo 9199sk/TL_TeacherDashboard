@@ -16,7 +16,7 @@ class UpcomingTestTile extends StatelessWidget {
           Container(
             padding: const EdgeInsets.all(10),
             decoration: const BoxDecoration(
-              color: Color(0xFF6A0DAD),
+              color: Color(0xFF4E33A3),
               shape: BoxShape.circle,
             ),
             child: const Icon(Icons.assignment, color: Colors.white, size: 24),
@@ -34,7 +34,7 @@ class UpcomingTestTile extends StatelessWidget {
           ),
           ElevatedButton(
             style: ElevatedButton.styleFrom(
-              backgroundColor: const Color(0xFF6A0DAD),
+              backgroundColor: const Color(0xFF4E33A3),
               shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(12)),
             ),
             onPressed: () {},
